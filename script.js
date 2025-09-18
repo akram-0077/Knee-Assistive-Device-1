@@ -1,16 +1,7 @@
-
 // ====================================================================
 // Firebase Config
 // ====================================================================
-const firebaseConfig = {
-apiKey: "AIzaSyAXJgomjzqs4uqhcmFlsuK84w6fZ4g4LqM", // Using the same API key as ESP32
-authDomain: "knee-assistive-device.firebaseapp.com",
-databaseURL: "https://knee-assistive-device-default-rtdb.firebaseio.com",
-projectId: "knee-assistive-device",
-storageBucket: "knee-assistive-device.appspot.com",
-messagingSenderId: "16560352596",
-appId: "1:16560352596:web:4f3bef65ddd886afa42cc1"
-};
+
 
 
 // Initialize Firebase connection status variable
@@ -4578,10 +4569,3 @@ function updateRMS(currentRMS) {
 //    updateRMS(rmsValue);
 // });
 // ==========================
-
-</script>
-</body>
-</html>
-
-
-
